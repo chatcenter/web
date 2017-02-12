@@ -96,7 +96,7 @@ You can customize your widget by embedding the following css within your html fi
 </style>
 ```
 
-### Change "Open chat ICON" position
+#### Change "Open chat ICON" position
 ```
 <style type="text/css">
   #cw-root #cw-button-open-widget {
@@ -107,7 +107,7 @@ You can customize your widget by embedding the following css within your html fi
 </style>
 ```
 
-### If you need specify different styles for PC and Mobiles
+#### If you need specify different styles for PC and Mobiles
 ```
 <style type="text/css">
   #cw-root #cw-button-open-widget {
