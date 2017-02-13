@@ -22,39 +22,39 @@ ChatCenter iOのサイトにて、
 #### 匿名ユーザとのチャット
 一般ページへのインストール
 カスタマーの情報は、チャットの開始時にサイト訪問者がChatCenteriOのWidget内で入力します。
-    
-	<script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='APP_TOKEN' data-org-uid='TEAM_NAME' data-style='popup'>
+```    
+<script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='APP_TOKEN' data-org-uid='TEAM_NAME' data-style='popup'>
 </script> 
-
+```
 #### 認証されたユーザとのチャット
 メンバーエリアなど、サイト内の認証が必要な箇所にインストールする場合
 お客様のトラッキングを行い場合や、お客様の名前などをチャットに引き継ぐ場合は以下の方法でインストールします。
 
 ##### ERB in Rails (Ruby) のサンプル
 
-
-       <script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='o1JoQE53yiHwrMpEu9Zm' 
+```
+<script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='o1JoQE53yiHwrMpEu9Zm' 
 	data-org-uid='chatcenter' data-style='popup' 
 	data-user-fullname='<%= current_user.name %>',
 	data-user-email='<%= current_user.email %>',
 	data-user-createdat='<%= current_user.created_at.to_i %>'></script>
-	
+```	
 ##### Django (Python) のサンプル
-
-       <script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='o1JoQE53yiHwrMpEu9Zm' 
+```
+<script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='o1JoQE53yiHwrMpEu9Zm' 
 	data-org-uid='chatcenter' data-style='popup' 
 	data-user-fullname='{{ request.user.name }}',
 	data-user-email='{{ request.user.email }}',
 	data-user-createdat='{{ request.user.date_joined | date: "U" }}'></script>
-	
+```	
 ##### PHP のサンプル
-
-       <script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='o1JoQE53yiHwrMpEu9Zm' 
+```
+<script src='http://widget.chatcenter.io/widget/downloader.js'  id='downloaderjs' data-app-token='o1JoQE53yiHwrMpEu9Zm' 
 	data-org-uid='chatcenter' data-style='popup' 
 	data-user-fullname='<?php echo $current_user->name ?>',
 	data-user-email='<?php echo $current_user->email ?>',
 	data-user-createdat='<?php echo strtotime($current_user->created_at) ?>'></script>
-
+```
 ##### パラメータ一覧
 
 Parameter name|Description
@@ -92,7 +92,7 @@ data-user-createdate| サイト訪問者の情報が作成された日付
 </style>
 ```
 
-### アイコン画像の位置の変更
+#### アイコン画像の位置の変更
 ```
 <style type="text/css">
   #cw-root #cw-button-open-widget {
@@ -103,7 +103,7 @@ data-user-createdate| サイト訪問者の情報が作成された日付
 </style>
 ```
 
-### PCとモバイルで設定を切り替えたい場合は以下の記述の中に上記の設定をお書き込みください
+#### PCとモバイルで設定を切り替えたい場合は以下の記述の中に上記の設定をお書き込みください
 ```
 <style type="text/css">
   #cw-root #cw-button-open-widget {
