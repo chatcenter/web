@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # gem
 
 ## redis-namespace
