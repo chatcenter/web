@@ -6,35 +6,35 @@ layout: default
 
 ## redis-namespace
 
-(https://github.com/resque/redis-namespace/blob/master/LICENSE)
+[https://github.com/resque/redis-namespace/blob/master/LICENSE](https://github.com/resque/redis-namespace/blob/master/LICENSE)
 
 ## redis-rails
 
-2009 - 2011 Luca Guidi - http//:lucaguidi.com, released under the MIT license
+2009 - 2011 Luca Guidi - [http//:lucaguidi.com](http//:lucaguidi.com), released under the MIT license
 
 ## rmagick
 
-https://github.com/rmagick/rmagick/blob/develop/LICENSE
+[https://github.com/rmagick/rmagick/blob/develop/LICENSE](https://github.com/rmagick/rmagick/blob/develop/LICENSE)
 
 ## puma
 
-https://github.com/puma/puma/blob/master/LICENSE
+[https://github.com/puma/puma/blob/master/LICENSE]
 
 ## dotenv-rails
 
-https://github.com/bkeepers/dotenv/blob/master/LICENSE
+[https://github.com/bkeepers/dotenv/blob/master/LICENSE]
 
 ## seed-fu
 
-https://github.com/mbleigh/seed-fu/blob/master/LICENSE
+[https://github.com/mbleigh/seed-fu/blob/master/LICENSE]
 
 ## devise
 
-MIT License. Copyright 2009-2016 Plataformatec. http://plataformatec.com.br
+MIT License. Copyright 2009-2016 Plataformatec. [http://plataformatec.com.br]
 
 ## devise_invitable
 
-https://github.com/scambra/devise_invitable/blob/master/LICENSE
+[https://github.com/scambra/devise_invitable/blob/master/LICENSE]
 
 ## devise-bootstrap-views
 
@@ -42,7 +42,7 @@ The gem is available as open source under the terms of the MIT License.
 
 ## devise-i18n
 
-https://github.com/tigrish/devise-i18n/blob/master/LICENSE.txt
+[https://github.com/tigrish/devise-i18n/blob/master/LICENSE.txt]
 
 ## devise-i18n-views
 
