@@ -6,7 +6,7 @@ layout: default
 
 ## redis-namespace
 
-(https://github.com/resque/redis-namespace/blob/master/LICENSE)
+[LINK](https://github.com/resque/redis-namespace/blob/master/LICENSE)
 
 ## redis-rails
 
